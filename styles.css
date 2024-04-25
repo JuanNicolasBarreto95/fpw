@@ -1,0 +1,177 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    background-color: #f8f9fa; /* Color de fondo de la página */
+    color: #212529; /* Color principal del texto */
+    font-family: Arial, sans-serif; /* Familia de fuentes */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #343a40; /* Color de fondo del encabezado */
+    color: #ffffff; /* Color del texto del encabezado */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    z-index: 1; /* Asegurar que la barra de navegación esté encima de otros elementos */
+}
+
+/* Estilos para el carrusel */
+.carousel-container {
+    margin-top: 20px;
+    margin-right: 250px; /* Ajuste para evitar que se superponga con la barra lateral */
+    width: calc(100% - 250px); /* Ajuste del ancho para evitar superposiciones */
+}
+
+.carousel {
+    width: 100%; /* Ancho del carrusel */
+}
+
+.carousel-item img {
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+}
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+    margin: 80px auto 20px; /* Ajuste el margen superior para evitar superposiciones */
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #343a40; /* Color de fondo del botón de búsqueda */
+    color: #ffffff; /* Color del texto del botón de búsqueda */
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para la tabla */
+.table-container {
+    margin: auto; /* Centrar la tabla */
+    width: calc(100% - 250px); /* Ajuste del ancho para evitar superposiciones */
+}
+
+.table th,
+.table td {
+    border: 1px solid #dee2e6; /* Borde de celdas */
+    padding: 8px; /* Espaciado interno */
+}
+
+.table th {
+    background-color: #343a40; /* Color de fondo de las cabeceras */
+    color: #ffffff; /* Color del texto de las cabeceras */
+}
+
+/* Estilo para resaltar resultados de búsqueda */
+.highlight {
+    background-color: #007bff; /* Color de fondo para resaltar */
+    color: #ffffff; /* Color de texto para resaltar */
+}
+/* Estilos para la barra lateral */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0; /* Ajuste al lado derecho */
+    width: 250px;
+    height: 100%;
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 60px;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar.open {
+    right: 0; /* Ajuste al lado derecho cuando está abierta */
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .sidebar-header h3 {
+    margin: 0;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .sidebar-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-menu li:hover {
+    background-color: #555;
+  }
+/* Estilos para los botones de redes sociales */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #343a40;
+  }
+  /* Estilos para el espacio de contenedores con información de autos */
+.car-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    grid-gap: 20px; /* Espacio entre los contenedores */
+}
+
+.car-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.car-info {
+    padding-top: 10px;
+}
+
+.car-info p {
+    margin: 5px 0;
+}
+
+.car-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilos para los iconos de redes sociales */
+.social-media {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #343a40;
+}

@@ -1,0 +1,24 @@
+/* App.css */
+
+/* Estilos para el contenedor principal */
+.App {
+  text-align: center;
+  color: #212529; /* Color principal del texto */
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #343a40; /* Color de fondo del encabezado */
+  color: #ffffff; /* Color del texto del encabezado */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para el texto "Portal de Autos" */
+h1 {
+  background-color: #6c757d; /* Color de fondo para el texto "Portal de Autos" */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  display: inline-block; /* Para que el fondo se ajuste al tamaño del texto */
+}
+
